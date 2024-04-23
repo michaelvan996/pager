@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="pager-container">
+                <h3 class="pager-title">Pager</h3>
+                <h3 id="pager-screen" class="pager-display"><h3>
+            </div>
+            
+            <div class="phone-container">
+                <h3 class="phone-title">Phone</h3>
+                <h3 id="phone-screen" class="phone-display"></h3>
+                
+                <div class="pad-container">
+                    <button class="key-btn" onClick="add1()">1</button>
+                    <button class="key-btn" onClick="add2()">2</button>
+                    <button class="key-btn" onClick="add3()">3</button>
+                </div>
+                
+                <div class="pad-container">
+                    <button class="key-btn" onClick="add4()">4</button>
+                    <button class="key-btn" onClick="add5()">5</button>
+                    <button class="key-btn" onClick="add6()">6</button>
+                </div>
+                
+                <div class="pad-container">
+                    <button class="key-btn" onClick="add7()">7</button>
+                    <button class="key-btn" onClick="add8()">8</button>
+                    <button class="key-btn" onClick="add9()">9</button>
+                </div>
+                
+                <div class="pad-container">
+                    <button class="key-btn" onClick="addStar()">*</button>
+                    <button class="key-btn" onClick="add0()">0</button>
+                    <button class="key-btn" onClick="addHash()">#</button>
+                </div>
+                
+                <button class="reset-btn" onClick="reset()">RESET</button>
+                <button class="send-btn" onClick="send()">SEND</button>
+            
+            </div>
+            
+            
+            
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
